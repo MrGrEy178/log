@@ -1,0 +1,153 @@
+mrgrey178@MrGrEy178 ~/cm12.1 $ make -j5 PRODUCT-samsung-userdebug
+============================================
+PLATFORM_VERSION_CODENAME=REL
+PLATFORM_VERSION=5.1.1
+CM_VERSION=
+TARGET_PRODUCT=samsung
+TARGET_BUILD_VARIANT=userdebug
+TARGET_BUILD_TYPE=release
+TARGET_BUILD_APPS=
+TARGET_ARCH=arm
+TARGET_ARCH_VARIANT=armv7-a-neon
+TARGET_CPU_VARIANT=cortex-a7
+TARGET_2ND_ARCH=
+TARGET_2ND_ARCH_VARIANT=
+TARGET_2ND_CPU_VARIANT=
+HOST_ARCH=x86_64
+HOST_OS=linux
+HOST_OS_EXTRA=Linux-4.10.0-38-generic-x86_64-with-LinuxMint-18.3-sylvia
+HOST_BUILD_TYPE=release
+BUILD_ID=LMY49J
+OUT_DIR=/home/mrgrey178/cm12.1/out
+============================================
+build/core/dex_preopt.mk:79: No DALVIK_VM_LIB, disable dexpreopt.
+art/build/Android.cpplint.mk:49: предупреждение: переопределение способа для цели «/home/mrgrey178/cm12.1/out/target/common/cpplint/art__test__121-modifiers__classes__A.class»
+art/build/Android.cpplint.mk:49: предупреждение: старый способ для цели «/home/mrgrey178/cm12.1/out/target/common/cpplint/art__test__121-modifiers__classes__A.class» игнорируются
+art/build/Android.cpplint.mk:49: предупреждение: переопределение способа для цели «/home/mrgrey178/cm12.1/out/target/common/cpplint/art__test__121-modifiers__classes__A.class»
+art/build/Android.cpplint.mk:49: предупреждение: старый способ для цели «/home/mrgrey178/cm12.1/out/target/common/cpplint/art__test__121-modifiers__classes__A.class» игнорируются
+art/build/Android.cpplint.mk:49: предупреждение: переопределение способа для цели «/home/mrgrey178/cm12.1/out/target/common/cpplint/art__test__022-interface__classes__Main.class»
+art/build/Android.cpplint.mk:49: предупреждение: старый способ для цели «/home/mrgrey178/cm12.1/out/target/common/cpplint/art__test__022-interface__classes__Main.class» игнорируются
+build/core/binary.mk:745: цель «/home/mrgrey178/cm12.1/out/target/product/j320f/obj/STATIC_LIBRARIES/libc_bionic_intermediates/arch-arm/bionic/memcmp.o» указана несколько раз в одном правиле
+"ebtables is disabled on this build"
+find: «dummy»: Нет такого файла или каталога
+build/core/Makefile:217: предупреждение: переопределение способа для цели «/home/mrgrey178/cm12.1/out/target/product/j320f/system/build.prop»
+build/core/Makefile:46: предупреждение: старый способ для цели «/home/mrgrey178/cm12.1/out/target/product/j320f/system/build.prop» игнорируются
+build/core/tasks/kernel.mk:121: ***************************************************************
+build/core/tasks/kernel.mk:122: * Using prebuilt kernel binary instead of source              *
+build/core/tasks/kernel.mk:123: * THIS IS DEPRECATED, AND WILL BE DISCONTINUED                *
+build/core/tasks/kernel.mk:124: * Please configure your device to download the kernel         *
+build/core/tasks/kernel.mk:125: * source repository to kernel/samsung/j320f
+build/core/tasks/kernel.mk:126: * See http://wiki.cyanogenmod.org/w/Doc:_integrated_kernel_building
+build/core/tasks/kernel.mk:127: * for more information                                        *
+build/core/tasks/kernel.mk:128: ***************************************************************
+Symlink: /home/mrgrey178/cm12.1/out/target/product/j320f/recovery/root/sbin/fsck.exfat -> mount.exfat
+Symlink: /home/mrgrey178/cm12.1/out/target/product/j320f/recovery/root/sbin/mkfs.exfat -> mount.exfat
+Symlink: /home/mrgrey178/cm12.1/out/target/product/j320f/system/bin/fsck.exfat -> mount.exfat
+Symlink: /home/mrgrey178/cm12.1/out/target/product/j320f/system/bin/mkfs.exfat -> mount.exfat
+Install: /home/mrgrey178/cm12.1/out/target/product/j320f/system/usr/share/vim/autoload/spacehi.vim
+Install: /home/mrgrey178/cm12.1/out/target/product/j320f/system/usr/share/vim/colors/default.vim
+Install: /home/mrgrey178/cm12.1/out/target/product/j320f/system/usr/share/vim/colors/desert.vim
+Install: /home/mrgrey178/cm12.1/out/target/product/j320f/system/usr/share/vim/doc/editing.txt
+Install: /home/mrgrey178/cm12.1/out/target/product/j320f/system/usr/share/vim/doc/help.txt
+Install: /home/mrgrey178/cm12.1/out/target/product/j320f/system/usr/share/vim/doc/intro.txt
+Install: /home/mrgrey178/cm12.1/out/target/product/j320f/system/usr/share/vim/doc/motion.txt
+Install: /home/mrgrey178/cm12.1/out/target/product/j320f/system/usr/share/vim/doc/options.txt
+Install: /home/mrgrey178/cm12.1/out/target/product/j320f/system/usr/share/vim/doc/scroll.txt
+Install: /home/mrgrey178/cm12.1/out/target/product/j320f/system/usr/share/vim/doc/tags
+Install: /home/mrgrey178/cm12.1/out/target/product/j320f/system/usr/share/vim/doc/term.txt
+Install: external/bash/etc/bash_logout -> /home/mrgrey178/cm12.1/out/target/product/j320f/system/etc/bash/
+Install: external/bash/etc/bashrc -> /home/mrgrey178/cm12.1/out/target/product/j320f/system/etc/bash/
+Install: external/nano/etc/asm.nanorc -> /home/mrgrey178/cm12.1/out/target/product/j320f/system/etc/nano/
+Install: external/nano/etc/awk.nanorc -> /home/mrgrey178/cm12.1/out/target/product/j320f/system/etc/nano/
+Install: external/nano/etc/c.nanorc -> /home/mrgrey178/cm12.1/out/target/product/j320f/system/etc/nano/
+Install: external/nano/etc/cmake.nanorc -> /home/mrgrey178/cm12.1/out/target/product/j320f/system/etc/nano/
+Install: external/nano/etc/css.nanorc -> /home/mrgrey178/cm12.1/out/target/product/j320f/system/etc/nano/
+Install: external/nano/etc/fortran.nanorc -> /home/mrgrey178/cm12.1/out/target/product/j320f/system/etc/nano/
+Install: external/nano/etc/groff.nanorc -> /home/mrgrey178/cm12.1/out/target/product/j320f/system/etc/nano/
+Install: external/nano/etc/html.nanorc -> /home/mrgrey178/cm12.1/out/target/product/j320f/system/etc/nano/
+Install: external/nano/etc/java.nanorc -> /home/mrgrey178/cm12.1/out/target/product/j320f/system/etc/nano/
+Install: external/nano/etc/makefile.nanorc -> /home/mrgrey178/cm12.1/out/target/product/j320f/system/etc/nano/
+Install: external/nano/etc/nanorc -> /home/mrgrey178/cm12.1/out/target/product/j320f/system/etc/nano/
+Install: external/nano/etc/nanorc.nanorc -> /home/mrgrey178/cm12.1/out/target/product/j320f/system/etc/nano/
+Install: external/nano/etc/objc.nanorc -> /home/mrgrey178/cm12.1/out/target/product/j320f/system/etc/nano/
+Install: external/nano/etc/ocaml.nanorc -> /home/mrgrey178/cm12.1/out/target/product/j320f/system/etc/nano/
+Install: external/nano/etc/patch.nanorc -> /home/mrgrey178/cm12.1/out/target/product/j320f/system/etc/nano/
+Install: external/nano/etc/perl.nanorc -> /home/mrgrey178/cm12.1/out/target/product/j320f/system/etc/nano/
+Install: external/nano/etc/php.nanorc -> /home/mrgrey178/cm12.1/out/target/product/j320f/system/etc/nano/
+Install: external/nano/etc/python.nanorc -> /home/mrgrey178/cm12.1/out/target/product/j320f/system/etc/nano/
+Install: external/nano/etc/ruby.nanorc -> /home/mrgrey178/cm12.1/out/target/product/j320f/system/etc/nano/
+Install: external/nano/etc/sh.nanorc -> /home/mrgrey178/cm12.1/out/target/product/j320f/system/etc/nano/
+Install: external/nano/etc/tcl.nanorc -> /home/mrgrey178/cm12.1/out/target/product/j320f/system/etc/nano/
+Install: external/nano/etc/tex.nanorc -> /home/mrgrey178/cm12.1/out/target/product/j320f/system/etc/nano/
+Install: external/nano/etc/xml.nanorc -> /home/mrgrey178/cm12.1/out/target/product/j320f/system/etc/nano/
+Install: /home/mrgrey178/cm12.1/out/target/product/j320f/system/usr/share/vim/filetype.vim
+Install: /home/mrgrey178/cm12.1/out/target/product/j320f/system/usr/share/vim/ftoff.vim
+Install: /home/mrgrey178/cm12.1/out/target/product/j320f/system/usr/share/vim/indent.vim
+Install: /home/mrgrey178/cm12.1/out/target/product/j320f/system/usr/share/vim/indoff.vim
+Install: /home/mrgrey178/cm12.1/out/target/product/j320f/system/usr/share/vim/plugin/matchparen.vim
+Install: /home/mrgrey178/cm12.1/out/target/product/j320f/system/usr/share/vim/scripts.vim
+Install: /home/mrgrey178/cm12.1/out/target/product/j320f/system/usr/share/vim/syntax/awk.vim
+Install: /home/mrgrey178/cm12.1/out/target/product/j320f/system/usr/share/vim/syntax/c.vim
+Install: /home/mrgrey178/cm12.1/out/target/product/j320f/system/usr/share/vim/syntax/conf.vim
+Install: /home/mrgrey178/cm12.1/out/target/product/j320f/system/usr/share/vim/syntax/config.vim
+Install: /home/mrgrey178/cm12.1/out/target/product/j320f/system/usr/share/vim/syntax/context.vim
+Install: /home/mrgrey178/cm12.1/out/target/product/j320f/system/usr/share/vim/syntax/cpp.vim
+Install: /home/mrgrey178/cm12.1/out/target/product/j320f/system/usr/share/vim/syntax/css.vim
+Install: /home/mrgrey178/cm12.1/out/target/product/j320f/system/usr/share/vim/syntax/diff.vim
+Install: /home/mrgrey178/cm12.1/out/target/product/j320f/system/usr/share/vim/syntax/doxygen.vim
+Install: /home/mrgrey178/cm12.1/out/target/product/j320f/system/usr/share/vim/syntax/dtd.vim
+Install: /home/mrgrey178/cm12.1/out/target/product/j320f/system/usr/share/vim/syntax/gitcommit.vim
+Install: /home/mrgrey178/cm12.1/out/target/product/j320f/system/usr/share/vim/syntax/help.vim
+Install: /home/mrgrey178/cm12.1/out/target/product/j320f/system/usr/share/vim/syntax/html.vim
+Install: /home/mrgrey178/cm12.1/out/target/product/j320f/system/usr/share/vim/syntax/java.vim
+Install: /home/mrgrey178/cm12.1/out/target/product/j320f/system/usr/share/vim/syntax/javascript.vim
+Install: /home/mrgrey178/cm12.1/out/target/product/j320f/system/usr/share/vim/syntax/logcat.vim
+Install: /home/mrgrey178/cm12.1/out/target/product/j320f/system/usr/share/vim/syntax/lua.vim
+Install: /home/mrgrey178/cm12.1/out/target/product/j320f/system/usr/share/vim/syntax/manual.vim
+Install: /home/mrgrey178/cm12.1/out/target/product/j320f/system/usr/share/vim/syntax/markdown.vim
+Install: /home/mrgrey178/cm12.1/out/target/product/j320f/system/usr/share/vim/syntax/pod.vim
+Install: /home/mrgrey178/cm12.1/out/target/product/j320f/system/usr/share/vim/syntax/sh.vim
+Install: /home/mrgrey178/cm12.1/out/target/product/j320f/system/usr/share/vim/syntax/syncolor.vim
+Install: /home/mrgrey178/cm12.1/out/target/product/j320f/system/usr/share/vim/syntax/synload.vim
+Install: /home/mrgrey178/cm12.1/out/target/product/j320f/system/usr/share/vim/syntax/syntax.vim
+Install: /home/mrgrey178/cm12.1/out/target/product/j320f/system/usr/share/vim/syntax/vb.vim
+Install: /home/mrgrey178/cm12.1/out/target/product/j320f/system/usr/share/vim/syntax/vim.vim
+Install: /home/mrgrey178/cm12.1/out/target/product/j320f/system/usr/share/vim/syntax/xml.vim
+Copying: /home/mrgrey178/cm12.1/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-eclair_intermediates/classes-jarjar.jar
+Copying: /home/mrgrey178/cm12.1/out/target/common/obj/JAVA_LIBRARIES/android-support-v7-cardview-jellybean-mr1_intermediates/emma_out/lib/classes-jarjar.jar
+target thumb C++: libandroid_runtime <= frameworks/base/core/jni/android_view_Surface.cpp
+Copying: /home/mrgrey178/cm12.1/out/target/common/obj/JAVA_LIBRARIES/android-ex-camera2-portability_intermediates/classes-jarjar.jar
+target Java: android-ex-camera2-utils-tests (/home/mrgrey178/cm12.1/out/target/common/obj/APPS/android-ex-camera2-utils-tests_intermediates/classes)
+target Static Jar: android-ex-variablespeed (/home/mrgrey178/cm12.1/out/target/common/obj/JAVA_LIBRARIES/android-ex-variablespeed_intermediates/javalib.jar)
+target Static Jar: setup-wizard-navbar (/home/mrgrey178/cm12.1/out/target/common/obj/JAVA_LIBRARIES/setup-wizard-navbar_intermediates/javalib.jar)
+build/tools/generate-notice-files.py  /home/mrgrey178/cm12.1/out/target/product/j320f/obj/NOTICE.txt  /home/mrgrey178/cm12.1/out/target/product/j320f/obj/NOTICE.html "Notices for files contained in the filesystem images in this directory:" /home/mrgrey178/cm12.1/out/target/product/j320f/obj/NOTICE_FILES/src
+Combining NOTICE files into HTML
+Copying: /home/mrgrey178/cm12.1/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-eclair_intermediates/emma_out/lib/classes-jarjar.jar
+Copying: /home/mrgrey178/cm12.1/out/target/common/obj/JAVA_LIBRARIES/android-support-v7-cardview-jellybean-mr1_intermediates/classes.jar
+Copying: /home/mrgrey178/cm12.1/out/target/common/obj/JAVA_LIBRARIES/android-ex-camera2-portability_intermediates/emma_out/lib/classes-jarjar.jar
+Copying: /home/mrgrey178/cm12.1/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-eclair_intermediates/classes.jar
+Combining NOTICE files into text
+target Static Jar: android-support-v7-cardview-jellybean-mr1 (/home/mrgrey178/cm12.1/out/target/common/obj/JAVA_LIBRARIES/android-support-v7-cardview-jellybean-mr1_intermediates/javalib.jar)
+Copying: /home/mrgrey178/cm12.1/out/target/common/obj/JAVA_LIBRARIES/android-ex-camera2-portability_intermediates/classes.jar
+target Static Jar: android-support-v4-eclair (/home/mrgrey178/cm12.1/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-eclair_intermediates/javalib.jar)
+target Java: android-support-v7-cardview-api21 (/home/mrgrey178/cm12.1/out/target/common/obj/JAVA_LIBRARIES/android-support-v7-cardview-api21_intermediates/classes)
+target Static Jar: android-ex-camera2-portability (/home/mrgrey178/cm12.1/out/target/common/obj/JAVA_LIBRARIES/android-ex-camera2-portability_intermediates/javalib.jar)
+target Java: android-support-v4-eclair-mr1 (/home/mrgrey178/cm12.1/out/target/common/obj/JAVA_LIBRARIES/android-support-v4-eclair-mr1_intermediates/classes)
+Installed file list: /home/mrgrey178/cm12.1/out/target/product/j320f/installed-files.txt
+target Java: android-ex-camera2-portability-tests (/home/mrgrey178/cm12.1/out/target/common/obj/APPS/android-ex-camera2-portability-tests_intermediates/classes)
+Target system fs image: /home/mrgrey178/cm12.1/out/target/product/j320f/obj/PACKAGING/systemimage_intermediates/system.img
+Running:  mkyaffs2image -f /home/mrgrey178/cm12.1/out/target/product/j320f/system /home/mrgrey178/cm12.1/out/target/product/j320f/obj/PACKAGING/systemimage_intermediates/system.img /home/mrgrey178/cm12.1/out/target/product/j320f/root/file_contexts system
+target SharedLib: libandroid_runtime (/home/mrgrey178/cm12.1/out/target/product/j320f/obj/SHARED_LIBRARIES/libandroid_runtime_intermediates/LINKED/libandroid_runtime.so)
+frameworks/base/core/jni/android_view_Surface.cpp:405: error: undefined reference to 'android::uirenderer::AnimationContext::AnimationContext(android::uirenderer::renderthread::TimeLord&)'
+frameworks/base/core/jni/android_view_Surface.cpp:432: error: undefined reference to 'android::uirenderer::renderthread::RenderProxy::syncAndDrawFrame(long long, long long, float)'
+frameworks/base/core/jni/android_view_Surface.cpp:426: error: undefined reference to 'android::uirenderer::renderthread::RenderProxy::updateSurface(android::sp<ANativeWindow> const&)'
+frameworks/base/core/jni/android_view_Surface.cpp:413: error: undefined reference to 'android::uirenderer::renderthread::RenderProxy::RenderProxy(bool, android::uirenderer::RenderNode*, android::uirenderer::IContextFactory*)'
+frameworks/base/core/jni/android_view_Surface.cpp:414: error: undefined reference to 'android::uirenderer::renderthread::RenderProxy::loadSystemProperties()'
+frameworks/base/core/jni/android_view_Surface.cpp:415: error: undefined reference to 'android::uirenderer::renderthread::RenderProxy::setSwapBehavior(android::uirenderer::renderthread::SwapBehavior)'
+frameworks/base/core/jni/android_view_Surface.cpp:416: error: undefined reference to 'android::uirenderer::renderthread::RenderProxy::initialize(android::sp<ANativeWindow> const&)'
+frameworks/base/core/jni/android_view_Surface.cpp:419: error: undefined reference to 'android::uirenderer::renderthread::RenderProxy::setup(int, int, android::uirenderer::Vector3 const&, float, unsigned char, unsigned char)'
+frameworks/base/core/jni/android/graphics/Paint.cpp:809: error: undefined reference to 'android::uirenderer::Blur::convertRadiusToSigma(float)'
+collect2: error: ld returned 1 exit status
+build/core/shared_library_internal.mk:68: ошибка выполнения рецепта для цели «/home/mrgrey178/cm12.1/out/target/product/j320f/obj/SHARED_LIBRARIES/libandroid_runtime_intermediates/LINKED/libandroid_runtime.so»
+make: *** [/home/mrgrey178/cm12.1/out/target/product/j320f/obj/SHARED_LIBRARIES/libandroid_runtime_intermediates/LINKED/libandroid_runtime.so] Ошибка 1
+make: *** Ожидание завершения заданий…
